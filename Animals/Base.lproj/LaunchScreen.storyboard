@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="Jql-mT-x29">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="375" id="8VH-Uc-hO8"/>
+                                    <constraint firstAttribute="width" constant="667" id="Uet-21-cJV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BarkBuddy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qzd-ah-7nt">
+                                <rect key="frame" x="283" y="0.0" width="157" height="55"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="31"/>
+                                <color key="textColor" red="0.10808848589658737" green="0.048256687819957733" blue="0.19257169961929321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&quot; Be kind to every kind,not just Mankind. &quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35h-om-AYV">
+                                <rect key="frame" x="160" y="63" width="384" height="40"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="27o-k6-tnS"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="564-59-noq"/>
+                            <constraint firstItem="Qzd-ah-7nt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="91P-gW-WbT"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AmO-5P-PvB"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DhR-bp-Xjr"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FUT-b0-3Rw"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="KLm-OH-nAg"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="L2F-nS-CEd"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="O5n-eY-3fw"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Oug-BW-eZA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qzd-ah-7nt" secondAttribute="trailing" id="S2o-ms-3kM"/>
+                            <constraint firstItem="Qzd-ah-7nt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UWt-rF-enB"/>
+                            <constraint firstItem="Qzd-ah-7nt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cN3-fa-ewn"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dG7-IE-Hb0"/>
+                            <constraint firstItem="35h-om-AYV" firstAttribute="top" secondItem="Qzd-ah-7nt" secondAttribute="bottom" id="fm8-2l-8VQ"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hZK-pM-dRf"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hip-hc-3ON"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jSx-ym-ZOp"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jcB-1S-usw"/>
+                            <constraint firstItem="35h-om-AYV" firstAttribute="top" secondItem="Qzd-ah-7nt" secondAttribute="bottom" id="kFk-Vs-49L"/>
+                            <constraint firstAttribute="trailing" secondItem="Qzd-ah-7nt" secondAttribute="trailing" id="kOR-13-f9U"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kU6-CU-P9J"/>
+                            <constraint firstItem="Qzd-ah-7nt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qLT-8a-oyW"/>
+                            <constraint firstItem="Jql-mT-x29" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uen-98-Mz2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.724137931034484" y="373.60000000000002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="default" width="235.19999694824219" height="132.24000549316406"/>
+    </resources>
+</document>
